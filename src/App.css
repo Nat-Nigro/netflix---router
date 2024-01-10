@@ -1,0 +1,15 @@
+body {
+  background-color: #212529;
+}
+.customImg {
+  width: 220px;
+  height: 120px;
+  object-fit: cover;
+  padding-inline-end: 1rem;
+  transition: transform 0.2s;
+}
+
+.customImg:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
